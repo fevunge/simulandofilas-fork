@@ -24,5 +24,7 @@ Exibiri as possições de pessoas na fila de alta prioridade se estivessem na fi
 A fila normal deve permitir o Proprietario trocar a sua possição com alguem que já esta na Fila (ex: o ultimo pode se tornar o terceiro trocando a posição com o terceito e vice versa). 
 
 Blocar atualizar dados, como nome, isso é visto como batotoda: 
-Buttoão para aculumular pedido extra (alem de seu processo o proprietário do lugar
-pode aceitar pedido exta, a um numero limite 3);
+Buttoão para aculumular pedido extra (alem de seu processo o proprietário do lugar pode aceitar pedido extra, a um numero limite 3);
+
+Este projeto é de uso educacional.
+Sinta-se livre para estudar, modificar e aprimorar o comportamento das filas!

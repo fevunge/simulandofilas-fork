@@ -24,14 +24,49 @@ form {
   gap: 10px;
   max-width: max-content;
   margin: 5px;
-  padding: 10px;
+  padding: 12px;
   border-radius: 15px;
 }
 
 form#person-values {
-  background-color: #333;
+  background-color: #efefef;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 form#file-values {
-  background-color: #333;
+  background-color: #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+form input[type="number"] {
+  width: 60px;
+}
+
+form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  height: 35px;
+  width: 100px;
+}
+
+form input[type="file"] {
+  width: 332px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form input[type="checkbox"] {
+  background-color: #45a049;
+  width: 20px;
 }

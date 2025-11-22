@@ -111,3 +111,14 @@ select option {
 button:hover, select:hover {
   background-color: #ddd;
 }
+
+.queue-container ul li {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.queue-container ul li span {
+  font-weight: bold;
+}

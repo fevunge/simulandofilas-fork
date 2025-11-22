@@ -51,7 +51,6 @@ form input[type="text"], form input[type="number"] {
 form input[type="number"] {
   width: 60px;
 }
-
 form input[type="submit"]{
   background-color: #4caf50;
   color: white;
@@ -69,8 +68,8 @@ form input[type="checkbox"] {
   width: 20px;
 }
 
-label {
-  width: 332px;
+#csv-file-label {
+  width: 382px;
   color: #898989;
   text-align: center;
   font-weight: bold;

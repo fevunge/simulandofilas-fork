@@ -60,6 +60,16 @@ form input[type="submit"]{
   width: 100px;
 }
 
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form input[type="checkbox"] {
+  background-color: #45a049;
+  width: 20px;
+}
+
+
 label {
   width: 332px;
   color: #898989;
@@ -70,14 +80,6 @@ label {
   height: 25px;
 }
 
-form input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-form input[type="checkbox"] {
-  background-color: #45a049;
-  width: 20px;
-}
 
 .queue-container {
   margin: 5px;

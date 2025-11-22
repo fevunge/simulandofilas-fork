@@ -9,5 +9,29 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 20px;
+}
+
+section {
+  background-color: yellow;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  max-width: max-content;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+form#person-values {
+  background-color: #333;
+}
+
+form#file-values {
+  background-color: #333;
 }

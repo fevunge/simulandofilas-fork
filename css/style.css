@@ -121,3 +121,20 @@ button:hover, select:hover {
 .queue-container ul li span {
   font-weight: bold;
 }
+
+.person-data {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.person-status {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #555;
+}
